@@ -1,0 +1,101 @@
+/* COLORS
+
+Dark Blue: #0B0D17
+Lavender: #D0D6F9
+White: #FFFFFF
+*/
+
+
+
+
+body {
+    background-color: #0B0D17;
+
+}
+
+/* TYPOGRAPHY */
+
+p {
+    font-family: "Barlow", sans-serif;
+    font-size: 1.125rem;
+    color: #D0D6F9;
+    line-height: 32px;
+}
+
+h1 {
+    font-family: "Bellefair", serif;
+    font-size: 9.375rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Bellefair", serif;
+    font-size: 6.25rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+h3 {
+    font-family: "Bellefair", serif;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+h4 {
+    font-family: "Bellefair", serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+h5 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    color: #D0D6F9;
+    letter-spacing: 4.75px;
+    margin: 0;
+}
+
+.subheading-1 {
+    font-family: "Bellefair", serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.subheading-2 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 2.35px;
+    margin: 0;
+}
+
+.nav-text {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 2.7px;
+    display: inline;
+}
+
+/* CONTAINERS */
+
+.navigation-container {
+
+
+}
+
+
+/* INTERACTIVE ELEMENTS */
+

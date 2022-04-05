@@ -1,0 +1,49 @@
+.background {
+   background-image: url("../assets/home/background-home-desktop.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+
+.left-container {
+    display: inline;
+    width: 450px;
+    margin: 10% auto auto 5%;
+    float: left;
+}
+
+.right-container {
+    display: inline;
+    float:right;
+    padding-top: 10%;
+    padding-right:20%
+}
+
+
+/* INTERACTIVE ELEMENTS */
+
+
+.explore {
+    display: inline;
+    float: right;
+    height: 274px;
+    width: 274px;
+    line-height: 274px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-family: "Bellefair", serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #0B0D17;
+    letter-spacing: 2.35px;
+}
+
+.explore:hover {
+    border-width: 88px;
+    border-style: solid;
+    border-color: #979797;
+}

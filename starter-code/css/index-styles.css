@@ -1,24 +1,19 @@
 .background {
    background-image: url("../assets/home/background-home-desktop.jpg");
    background-position: center;
-   background-repeat: no-repeat;
    background-attachment: fixed;
    background-size: cover;
 }
 
 
 .left-container {
-    display: inline;
     width: 450px;
-    margin: 10% auto auto 5%;
     float: left;
 }
 
 .right-container {
     display: inline;
-    float:right;
-    padding-top: 10%;
-    padding-right:20%
+    float: right;
 }
 
 
@@ -40,10 +35,12 @@
     text-transform: uppercase;
     color: #0B0D17;
     letter-spacing: 2.35px;
+    transition: 0.3s;
+
 }
 
+
 .explore:hover {
-    border-width: 88px;
-    border-style: solid;
-    border-color: #979797;
+    box-shadow: 0 0 0 88px rgba(151, 151, 151, 0.5);
+
 }

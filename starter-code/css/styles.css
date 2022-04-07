@@ -6,14 +6,6 @@ White: #FFFFFF
 Dark Grey: #979797
 */
 
-
-
-
-body {
-    background-color: #0B0D17
-    margin: 0;
-}
-
 /* TYPOGRAPHY */
 
 p {
@@ -29,6 +21,7 @@ h1 {
     text-transform: uppercase;
     color: #FFFFFF;
     margin: 0;
+    font-weight: normal;
 }
 
 h2 {
@@ -36,6 +29,7 @@ h2 {
     font-size: 6.25rem;
     text-transform: uppercase;
     color: #FFFFFF;
+    font-weight: normal;
     margin: 0;
 }
 
@@ -44,6 +38,7 @@ h3 {
     font-size: 3.5rem;
     text-transform: uppercase;
     color: #FFFFFF;
+    font-weight: normal;
     margin: 0;
 }
 
@@ -52,6 +47,7 @@ h4 {
     font-size: 2rem;
     text-transform: uppercase;
     color: #FFFFFF;
+    font-weight: normal;
     margin: 0;
 }
 
@@ -88,31 +84,39 @@ h5 {
     color: #FFFFFF;
     letter-spacing: 2.7px;
     display: inline;
+    margin: 0 30px;
+}
 
+.nav-text-bold {
+    margin-right: 8px;
+    font-weight: bold;
 }
 
 /* CONTAINERS */
 
 .navigation-container {
-    margin: 5% 0 10% 0;
-
-
-
+    margin: 5% auto;
+    height: 96px;
+    overflow: clip;
 }
 
 .navigation-box {
     float: right;
-    box-shadow: inset -10px 0px 100px 20px rgba(151, 151, 151, 0.5);
-    width: 60%;
-    height: 96x;
-    padding: 20px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(151, 151, 151, 0.1);
+    width: 55%;
+    height: 100%;
+    margin: auto 0;
 }
 
 .navigation-sections {
-    float: right;
-    display: inline
-    margin: auto 15% auto 15%;
-    padding: 10px;
+    position: relative;
+    top: 25%;
+    display: block;
+    margin: auto;
+    padding: 1%;
+    width: 80%;
 
 }
 
@@ -120,6 +124,31 @@ h5 {
     display: block;
     clear: right;
 }
+
+/* GRAPHICS */
+
+.logo {
+    float:left;
+    margin: 0;
+    display: inline-block;
+    margin-left: 10%;
+    position: relative;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    }
+
+.navigation-line {
+    float:left;
+    width: 30%;
+    position: relative;
+    top: 50%;
+    left: 4%;
+    border-color: #979797;
+    margin: 0;
+
+}
+
 
 /* INTERACTIVE ELEMENTS */
 

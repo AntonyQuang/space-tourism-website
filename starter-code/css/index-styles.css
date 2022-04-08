@@ -12,14 +12,19 @@
 .left-container {
     width: 450px;
     float: left;
+    margin-left: 15%;
 }
 
 .right-container {
     display: inline;
     float: right;
+    margin-right: 18%;
+    margin-top: 3%;
 }
 
-
+.body-container {
+    margin-top: 8%;
+}
 /* INTERACTIVE ELEMENTS */
 
 

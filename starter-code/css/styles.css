@@ -15,6 +15,10 @@ p {
     line-height: 32px;
 }
 
+a {
+    text-decoration: None;
+}
+
 h1 {
     font-family: "Bellefair", serif;
     font-size: 9.375rem;
@@ -84,7 +88,11 @@ h5 {
     color: #FFFFFF;
     letter-spacing: 2.7px;
     display: inline;
-    margin: 0 30px;
+    height: 96px;
+    padding: 34px 0;
+    margin: 0 48px 0 0;
+    transition: 0.3s linear;
+    border-bottom: solid 0px #979797;
 }
 
 .nav-text-bold {
@@ -131,7 +139,7 @@ h5 {
     float:left;
     margin: 0;
     display: inline-block;
-    margin-left: 10%;
+    margin-left: 5%;
     position: relative;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -140,15 +148,21 @@ h5 {
 
 .navigation-line {
     float:left;
-    width: 30%;
+    width: 37%;
     position: relative;
     top: 50%;
-    left: 4%;
+    left: 3%;
     border-color: #979797;
     margin: 0;
 
 }
 
+.active-tab {
+    border-bottom: solid 3px #FFFFFF;
+}
 
 /* INTERACTIVE ELEMENTS */
 
+.nav-text:hover {
+    border-bottom: solid 3px #979797;
+}

@@ -1,0 +1,126 @@
+
+.background {
+   background-image: url("../assets/destination/background-destination-desktop.jpg");
+   background-position: center;
+   background-attachment: fixed;
+   background-size: cover;
+   background-color: #0B0D17;
+   margin: 0;
+   height: auto;
+}
+
+/* TYPOGRAPHY */
+
+h4 {
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-bottom: 5%;
+}
+
+h3 {
+    white-space: nowrap;
+    padding-bottom: 5%;
+}
+
+h5 {
+    padding-bottom: 15%;
+}
+
+.nav-text {
+    padding: 0 0 10px 0;
+    margin: 0 43px 0 0;
+    color: #D0D6F9;
+}
+
+.nav-text-bold {
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+/* Containers */
+
+
+.left-container {
+    float: left;
+    width: 450px;
+    margin: 1% 0 0 10%;
+
+}
+
+.right-container {
+    float: right;
+    padding: 0;
+    margin-top: 5%;
+    margin-right: 20.5%;
+
+    width: 445px;
+
+}
+
+.body-container {
+    display: block;
+    margin: 0;
+}
+
+.distance {
+    float: left;
+    margin-right: 15%;
+}
+
+.time {
+    float: left;
+    margin-right: 5%;
+}
+
+.destination-navigation {
+    margin-bottom: 10%;
+}
+
+.statistics {
+    margin-top: 12%;
+}
+
+/* INTERACTIVE ELEMENTS */
+.crew-links {
+    position: absolute;
+    top: 750px;
+}
+
+.crew-button {
+    border: none;
+    background-color: white;
+    color-white: white;
+    padding: 7.5px;
+    display: line-block;
+    border-radius: 50%;
+    font-size: 0px;
+    opacity: 0.17;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+.crew-button:hover {
+    opacity: 0.5;
+}
+
+.crew-button-active {
+    opacity: 1;
+}
+
+/* GRAPHICS */
+
+.moon {
+    margin-left: 8%;
+}
+
+.mars {
+    margin-left: 8%;
+}
+
+.europa {
+    margin-left: 8%;
+}
+
+.titan {
+    margin-left: 8%;
+}

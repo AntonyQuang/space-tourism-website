@@ -80,33 +80,6 @@ h5 {
     margin-top: 12%;
 }
 
-/* INTERACTIVE ELEMENTS */
-.crew-links {
-    position: absolute;
-    top: 750px;
-}
-
-.crew-button {
-    border: none;
-    background-color: white;
-    color-white: white;
-    padding: 7.5px;
-    display: line-block;
-    border-radius: 50%;
-    font-size: 0px;
-    opacity: 0.17;
-    margin-right: 15px;
-    transition: 0.3s;
-}
-
-.crew-button:hover {
-    opacity: 0.5;
-}
-
-.crew-button-active {
-    opacity: 1;
-}
-
 /* GRAPHICS */
 
 .moon {

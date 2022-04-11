@@ -30,11 +30,22 @@ h5 {
     padding: 0 0 10px 0;
     margin: 0 43px 0 0;
     color: #D0D6F9;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2.7px;
+    display: inline;
+    height: 96px;
+    padding: 10px 0;
+    margin: 0 48px 0 0;
+    transition: 0.3s linear;
+    border-bottom: solid 0px #979797;
 }
 
 .dest-nav-text-bold {
     font-weight: normal;
     color: #FFFFFF;
+    border-bottom: solid 2px #FFFFFF;
 }
 
 /* Containers */
@@ -79,6 +90,13 @@ h5 {
 .statistics {
     margin-top: 12%;
 }
+
+/* INTERACTIVE ELEMENTS */
+
+.dest-nav-text:hover {
+    border-bottom: solid 2px #979797;
+}
+
 
 /* GRAPHICS */
 

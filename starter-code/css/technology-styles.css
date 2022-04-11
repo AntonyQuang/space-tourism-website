@@ -1,0 +1,121 @@
+
+.background {
+   background-image: url("../assets/technology/background-technology-desktop.jpg");
+   background-position: center;
+   background-attachment: fixed;
+   background-size: cover;
+   background-color: #0B0D17;
+   margin: 0;
+   height: auto;
+}
+
+/* TYPOGRAPHY */
+
+h4 {
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-bottom: 5%;
+
+}
+
+h3 {
+    white-space: nowrap;
+    padding-bottom: 4%;
+    padding-top: 2%;
+}
+
+h5 {
+    padding-bottom: 15%;
+}
+
+.terminology {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #D0D6F9;
+    letter-spacing: 2.7px;
+    display: inline;
+    line-height: 0;
+}
+
+.button-font {
+    font-family: "Bellefair", serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Containers */
+
+
+.left-container {
+    margin: 1% 0 0 10%;
+    float: left;
+    display: inline;
+
+}
+
+.middle-container {
+    display: inline;
+    float: left;
+    width: 470px;
+}
+
+.right-container {
+    float: right;
+    padding: 0;
+    margin-top: 5%;
+}
+
+.body-container {
+    display: block;
+    margin: 0;
+}
+
+
+.technology-navigation {
+    float: left;
+    margin-bottom: 0%;
+    width: auto;
+}
+
+.description {
+    float: left;
+    margin-left: 10%;
+    padding: 0;
+}
+.button-container {
+    margin-bottom: 40%;
+}
+
+/* INTERACTIVE ELEMENTS */
+
+.technology-button {
+    border-style: solid;
+    border-color: #FFFFFF;
+    background-color: none;
+    border-radius: 50%;
+    min-width: 80px;
+    height: 80px;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    margin: 0;
+    opacity: 0.25;
+    transition: 0.3s;
+
+}
+
+.technology-button:hover {
+    opacity: 1;
+}
+
+.technology-button-active {
+    background-color: #FFFFFF;
+    color: #0B0D17;
+    opacity: 1;
+}
+
+

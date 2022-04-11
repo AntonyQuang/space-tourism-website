@@ -5,28 +5,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/technology-styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Space tourism website</title>
 </head>
-<body>
+<body class="background">
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+<div class="navigation-container">
+    <div class="logo">
+      <img src="assets/shared/logo.svg" alt="logo">
+    </div>
 
-  03 Space launch 101
+    <div class="navigation-box">
+      <div class="navigation-sections">
+        <a href="index.html"><p class="nav-text"><span class="nav-text-bold">00</span> Home</p></a>
+        <a href="destination-moon.html"><p class="nav-text"><span class="nav-text-bold">01</span> Destination</p></a>
+        <a href="crew-commander.html"><p class="nav-text"><span class="nav-text-bold">02</span> Crew</p></a>
+        <a href="technology-vehicle.html"><p class="nav-text active-tab"><span class="nav-text-bold">03</span> Technology</p></a>
+      </div>
+    </div>
+    <hr class="navigation-line">
+  </div>
+  <br>
 
-  1
-  2
-  3
+  <div class="body-container">
+    <div class="left-container">
+      <h5><span class="h5-bold">03</span> Space launch 101</h5>
 
-  The terminology...
-  Spaceport
+      <div class="technology-navigation">
+        <div class="button-container">
+        <a  href="technology-vehicle.html"><p class="technology-button button-font ">1</p></a>
+        </div>
+        <div class="button-container"><a href="technology-spaceport.html"><p class="technology-button button-font technology-button-active">2</p></a>
+        </div>
+        <div class="button-container">
+        <a href="technology-capsule.html"><p class="technology-button button-font">3</p></a>
+        </div>
+      </div>
 
-  A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, 
-  by analogy to the seaport for ships or airport for aircraft. Based in the 
-  famous Cape Canaveral, our spaceport is ideally situated to take advantage 
-  of the Earth’s rotation for launch.
+        <div class="middle-container">
+            <div class="description">
+                <p class="terminology">The terminology...</p>
+
+
+                <h3>Spaceport</h3>
+
+                <p>  A spaceport or cosmodrome is a site for launching (or receiving) spacecraft,
+                by analogy to the seaport for ships or airport for aircraft. Based in the
+                famous Cape Canaveral, our spaceport is ideally situated to take advantage
+                of the Earth’s rotation for launch.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="right-container">
+      <img src="assets/technology/image-spaceport-portrait.jpg">
+    </div>
+
+  </div>
+
+
 </body>
 </html>
